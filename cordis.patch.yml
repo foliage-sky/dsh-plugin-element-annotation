@@ -1,0 +1,3 @@
+- insert:
+    - id: element-annotation
+      name: '@local/element-annotation'

@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "Element annotation",
+    "description": "Click “批注” in the document preview header, then click an element or drag a box to describe a change. Collected annotations are sent to the AI in one message through the composer. Esc cancels; dragging elsewhere re-targets the selection and clicking empty space exits. It only writes composer text and selection UI, reads no file contents, and sends no data elsewhere. Turning the plugin off removes the button and panel.",
+    "detail": "docs/DETAIL.md"
+  }
+}

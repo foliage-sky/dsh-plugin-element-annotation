@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Element Annotation",
+    "zh": "DSH 元素批注"
+  },
+  "description": {
+    "en": "Annotations on document previews: point at an element or drag a box, then send all change requests to the AI in one message.",
+    "zh": "在文档预览上批注：指向元素或框选区域，汇总修改要求一次性交给 AI。"
+  },
+  "metadata": {
+    "categories": {
+      "interface": {
+        "title": {
+          "en": "Interface",
+          "zh": "界面增强"
+        }
+      }
+    },
+    "labels": {
+      "preview": {
+        "title": {
+          "en": "Document preview",
+          "zh": "文档预览"
+        }
+      },
+      "review": {
+        "title": {
+          "en": "Review and feedback",
+          "zh": "评审与反馈"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-element-annotation",
+      "title": {
+        "en": "Element annotation",
+        "zh": "元素批注"
+      },
+      "description": {
+        "en": "Click the annotate button in the document preview header, then click an element or drag a box to describe a change. Annotations are collected and sent to the AI in one message.",
+        "zh": "在文档预览头部点击批注按钮，单击元素或框选区域填写修改要求；汇总后一次性发给 AI。"
+      },
+      "icon": "icon.svg",
+      "author": "foliage-sky",
+      "homepage": "https://github.com/foliage-sky/dsh-plugin-element-annotation",
+      "repository": {
+        "url": "https://github.com/foliage-sky/dsh-plugin-element-annotation"
+      },
+      "metadata": {
+        "category": "interface",
+        "labels": [
+          "preview",
+          "review"
+        ],
+        "keywords": [
+          "annotation",
+          "document preview",
+          "review",
+          "feedback",
+          "批注"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1764000000,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/foliage-sky/dsh-plugin-element-annotation",
+            "commit": "REPLACE_WITH_40_HEX_COMMIT"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.5"
+          }
+        }
+      ]
+    }
+  ]
+}
