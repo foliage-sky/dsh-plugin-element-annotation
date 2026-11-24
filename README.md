@@ -14,6 +14,7 @@ A [DeepSeek Harness (DSH)](https://github.com/deepseek-ai/deepseek-harness) plug
 
 - DSH `>= 0.2.2-rc.5` (Web or Desktop).
 - The right-sidebar document preview and the conversation composer (both ship with DSH Web/Desktop).
+- For the Git install option only: `git` available on `PATH` (pnpm resolves `git+https` specs with it). If Git is not installed, use the local-directory or npm option.
 
 ## Install
 
