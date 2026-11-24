@@ -5,7 +5,7 @@
     "zh": "DSH 元素批注"
   },
   "description": {
-    "en": "Annotations on document previews: point at an element or drag a box, then send all change requests to the AI in one message.",
+    "en": "Annotate document previews: point at an element or drag a box, then send all change requests to the AI in one message.",
     "zh": "在文档预览上批注：指向元素或框选区域，汇总修改要求一次性交给 AI。"
   },
   "metadata": {
@@ -66,11 +66,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1764000000,
+          "publishTimestamp": 1795489542,
           "source": {
             "type": "git",
             "url": "https://github.com/foliage-sky/dsh-plugin-element-annotation",
-            "commit": "REPLACE_WITH_40_HEX_COMMIT"
+            "commit": "df108613ffc2669ef94e9b06b68ac9fe8a3e0d96"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.5"
