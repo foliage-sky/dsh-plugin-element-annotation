@@ -47,5 +47,5 @@ git push origin main --tags
 
 - [x] 仓库公开、`main` 与 `v0.1.0` 已推送
 - [x] `index.json` 通过官方校验器，install spec 正确锁定 commit
-- [ ] DSH 里添加索引后条目可见（需要你操作并确认）
+- [x] DSH 里添加索引后条目可见（Discover 已显示「元素批注」条目）
 - [ ] 从市场安装后按钮/批注/提交正常（需要你操作并确认）
