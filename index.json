@@ -70,7 +70,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/foliage-sky/dsh-plugin-element-annotation",
-            "commit": "df108613ffc2669ef94e9b06b68ac9fe8a3e0d96"
+            "commit": "6a41a3203ed064e8668ffac3071abeb0f2702d15"
           },
           "engines": {
             "dsh": ">=0.2.2-rc.5"
