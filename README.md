@@ -22,10 +22,10 @@ Pick **one** option. All commands are copy-ready — replace only the quoted pat
 ### Option A — From Git, one command (recommended)
 
 ```bash
-plugin_manager install_bundle target "git+https://github.com/foliage-sky/dsh-plugin-element-annotation.git#df108613ffc2669ef94e9b06b68ac9fe8a3e0d96"
+plugin_manager install_bundle target "git+https://github.com/foliage-sky/dsh-plugin-element-annotation.git#v0.1.0"
 ```
 
-Then reload the DSH page. The commit is pinned, so this always installs `v0.1.0`.
+Then reload the DSH page. The tag `v0.1.0` is stable; for a byte-exact install use the commit SHA from [`index.json`](https://raw.githubusercontent.com/foliage-sky/dsh-plugin-element-annotation/main/index.json).
 
 ### Option B — Local directory (development)
 
